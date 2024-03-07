@@ -1,0 +1,54 @@
+.navbar{
+    background-image: linear-gradient(to right, rgb(228, 88, 158) 0%, rgba(251,104,149,1) 69%);
+    height: 11vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+
+.navbar a{
+    margin: 2%;
+}
+
+.navbarTitle{
+    color: #F9F9F9;
+    font-size: 2em;
+    margin-left: 3%;
+    font-family:'PrettyVintage';
+    font-weight: 200;
+    user-select: none;
+}
+
+.whatsappIcon{
+    
+    color: white;
+    width: 30px;
+    height: 30px;
+    margin-left: 15%;
+    
+    
+}
+
+
+@media (max-width: 900px) {
+    .navbarTitle{
+        
+    
+        font-weight: 100;
+    }
+    .whatsappIcon{
+    
+        color: white;
+        width: 35px;
+        height: 35px;
+        margin: auto
+        
+        
+    }
+    .navbar{
+        height: 100px;
+    }
+  }
