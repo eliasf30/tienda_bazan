@@ -67,6 +67,7 @@ export default function Cart() {
     }
 
 
+    const Descuento = totalcost * 0.1
 
 
 
@@ -153,11 +154,17 @@ export default function Cart() {
                     <div className="productOrder" style={{ height: "100%" }}>
                         {items.map(item => <CardOrder key={item.id} {...item} />)}
                     </div>
-
-
+                    <div className="totalDiv">
+                        <h4>Sub-Total</h4>
+                        <h4>${totalcost}</h4>
+                    </div>
+                    <div className="totalDiv">
+                        <h4>Descuento:</h4>
+                        <h4>${Descuento}</h4>
+                    </div>
                     <div className="totalDiv">
                         <h3>Total</h3>
-                        <h3>${totalcost}</h3>
+                        <h3>${totalcost - Descuento}</h3>
                     </div>
                 </div>
             </div>
