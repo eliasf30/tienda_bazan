@@ -108,7 +108,7 @@ export const products = [
     {
         id: 12,
         title:`corset sastrero rayas`,
-        category:["Noche","Remeras"] ,
+        category:["Noche","Tops"] ,
         image:product12,
         price: 11500,
         description:[]
@@ -116,7 +116,7 @@ export const products = [
     {
         id: 13,
         title:`blusa volados negra`,
-        category:["Noche","Tops"] ,
+        category:["Noche","Remeras"] ,
         image:product13,
         price:8400,
         description:[]
